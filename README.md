@@ -33,8 +33,8 @@ Dataset Preparation
     	    │   ├── val0.txt
     	    │   └── val1.txt
     	    └── test
-        	├── test0.txt
-        	└── test1.txt
+        		├── test0.txt
+        		└── test1.txt
 
 
 TRAIN 
