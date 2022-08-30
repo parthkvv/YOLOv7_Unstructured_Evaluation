@@ -1,0 +1,9 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: E:\\IISc\\Object_detection\\IDD\\backup\\images\\train # train images
+val: E:\\IISc\\Object_detection\\IDD\\backup\\images\\test_sample # val images
+test: E:\\IISc\\Object_detection\\IDD\\backup\\images\\test # test images (optional)
+
+# number of classes
+nc: 12  # number of classes
+names: ['bicycle', 'bus', 'traffic sign', 'motorcycle', 'car', 'traffic light', 'person', 'vehicle fallback', 'truck', 'autorickshaw', 'animal', 'rider']  # class names

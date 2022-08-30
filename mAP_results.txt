@@ -1,0 +1,18 @@
+Model Summary: 314 layers, 36541106 parameters, 6194944 gradients, 103.3 GFLOPS
+val: Scanning 'E:\IDD_Detection\test_data\labels\test.cache' images and labels... 7879 found, 0 missing, 0 empty, 114 c
+               Class      Images      Labels           P           R      mAP@.5  mAP@.5:.95: 100%|█| 7765/7765 [15:41<
+                 all        7765      176198       0.737        0.49       0.544       0.334
+             bicycle        7765         814       0.731       0.413       0.459       0.265
+                 bus        7765        5943       0.778       0.651       0.724       0.519
+        traffic sign        7765        5676        0.71       0.366        0.42       0.228
+          motorcycle        7765       34729       0.779       0.677       0.712       0.384
+                 car        7765       38803       0.836       0.704       0.776       0.531
+       traffic light        7765        1185       0.665       0.256       0.308       0.129
+              person        7765       25429       0.762       0.524       0.604       0.329
+    vehicle fallback        7765       13342       0.645      0.0532       0.104      0.0445
+               truck        7765        9094       0.736       0.705       0.756       0.544
+        autorickshaw        7765        9907       0.796        0.72       0.778       0.549
+              animal        7765         624       0.689       0.216       0.262       0.138
+               rider        7765       30652       0.723       0.598       0.632       0.351
+Speed: 20.4/1.9/22.3 ms inference/NMS/total per 640x640 image at batch-size 1
+Results saved to runs\test\yolov7_640_val
