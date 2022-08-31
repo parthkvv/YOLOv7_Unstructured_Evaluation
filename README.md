@@ -1,5 +1,3 @@
-YOLOv7 readme file(https://github.com/WongKinYiu/yolov7)
-
 Dataset Preparation
 	The base data directory should consist of the following files:
 		"images" folder - containing the images for train, test and val
